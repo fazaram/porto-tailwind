@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.hamburger {
+  @apply w-[30px] h-[2px] my-2 block bg-slate-500;
+}
