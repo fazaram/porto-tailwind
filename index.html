@@ -3,100 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Faza Rama Nugraha - Portofolio</title>
     <link href="./src/output.css" rel="stylesheet" />
   </head>
-  <!-- Header -->
-  <header class="bg-transparent absolute top-0 left-0 w-full z-10">
-    <div class="container flex justify-between items-center px-4">
-      <div class="flex items-center">
-        <a
-          href="#home"
-          class="font-bold text-5xl text-sky-200 block py-6 px-6 lg:px-10"
-          >FZ</a
-        >
+  <body class="bg-sky-100 xl:mx-auto">
+    <!-- Header -->
+    <header class="bg-transparent absolute top-0 left-0 w-full z-10">
+      <div class="container flex justify-between items-center px-4 xl:mx-auto">
+        <div class="flex items-center">
+          <a
+            href="#home"
+            class="font-bold text-5xl text-sky-200 block py-6 px-6 lg:px-10 xl:text-5xl"
+            >FZ</a
+          >
+        </div>
+        <div class="flex items-center">
+          <button
+            id="hamburger"
+            name="hamburger"
+            type="button"
+            class="block absolute right-6 top-7 px-4 lg:hidden"
+          >
+            <span
+              class="hamburger transition duration-300 ease-in-out origin-top-right"
+            ></span>
+            <span class="hamburger transition duration-300 ease-in-out"></span>
+            <span
+              class="hamburger hamburger transition duration-300 ease-in-out origin-bottom-right"
+            ></span>
+          </button>
+          <nav
+            id="nav-menu"
+            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:flex lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+          >
+            <ul class="block lg:flex">
+              <li class="group">
+                <a
+                  href="#home"
+                  class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
+                >
+                  Home
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#about"
+                  class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
+                >
+                  About Me
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#porto"
+                  class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
+                >
+                  My Work
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#client"
+                  class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
+                >
+                  Clients
+                </a>
+              </li>
+              <li class="group">
+                <a
+                  href="#contact"
+                  class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
+                >
+                  Get in Touch
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="flex items-center">
-        <button
-          id="hamburger"
-          name="hamburger"
-          type="button"
-          class="block absolute right-6 top-7 px-4 lg:hidden"
-        >
-          <span
-            class="hamburger transition duration-300 ease-in-out origin-top-right"
-          ></span>
-          <span class="hamburger transition duration-300 ease-in-out"></span>
-          <span
-            class="hamburger hamburger transition duration-300 ease-in-out origin-bottom-right"
-          ></span>
-        </button>
-        <nav
-          id="nav-menu"
-          class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:flex lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
-        >
-          <ul class="block lg:flex">
-            <li class="group">
-              <a
-                href="#home"
-                class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
-              >
-                Beranda
-              </a>
-            </li>
-            <li class="group">
-              <a
-                href="#about"
-                class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
-              >
-                About Me
-              </a>
-            </li>
-            <li class="group">
-              <a
-                href="#porto"
-                class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
-              >
-                Portofolio
-              </a>
-            </li>
-            <li class="group">
-              <a
-                href="#client"
-                class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
-              >
-                Clients
-              </a>
-            </li>
-            <li class="group">
-              <a
-                href="#contact"
-                class="text-base text-slate-500 py-2 mx-8 flex group-hover:text-sky-300"
-              >
-                Contact Me
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Hero -->
-  <body class="bg-sky-100 w-full">
+    <!-- Hero -->
+
     <section id="home" class="pt-28 pb-10">
       <div class="container text-center p-4">
-        <div class="flex flex-wrap">
-          <div class="w-full self-end px-4 lg:w-[500px] md:mx-20 lg:max-w-full">
-            <div class="relative my-5 lg:mt-9 lg:right-0 lg:-mx-10">
+        <div class="flex flex-wrap mx-auto xl:px-30">
+          <div class="w-full self-end px-4 md:w-1/2 lg:w-1/2 mb-10">
+            <div class="relative mt-10 lg:right-0 lg:mt-9">
               <img
                 src="dist/img/foto2.jpg"
                 alt=""
-                class="mx-auto lg:w-lg rounded-4xl lg:mx-40"
+                class="mx-auto rounded-4xl h-[200px] md:h-[300px] lg:h-[400px] xl:h-[500px]"
               />
             </div>
           </div>
-          <div class="w-full self-center px-4 md:w-full lg:w-1/2">
+          <div class="w-full self-center px-4 md:w-1/2 lg:w-1/2">
             <h1 class="text-base font-semi-bold text-cyan-500">
               <span
                 class="block font-bold mt-1 text-2xl md:text-3xl lg:text-4xl"
@@ -109,10 +110,11 @@
               Student College | Web Developer
             </h2>
             <p class="text-slate-400 mb-10">
-              makan sayur pake pepes, salam kenal ges
+              "makan sayur pake pepes, salam kenal ges"
             </p>
             <a
-              href="#"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=fazaramanugraha@gmail.com"
+              target="_blank"
               class="text-base font-semibold text-white bg-cyan-500 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
               >Contact Me</a
             >
@@ -122,9 +124,9 @@
     </section>
 
     <!-- about me -->
-    <section id="about" class="pt-36 pb-8 bg-cyan-100">
+    <section id="about" class="pt-36 pb-8 md:pb-2 bg-cyan-100">
       <div class="container px-6 lg:px-20">
-        <div class="flex flex-wrap mx-10">
+        <div class="flex flex-wrap mx-auto">
           <div class="w-full px-4 mb-10 lg:w-1/2">
             <h4
               class="font-bold uppercase text-cyan-500 text-lg mb-3 lg:text-2xl justify-center items-center"
@@ -134,16 +136,16 @@
             <h2
               class="text-md font-medium text-slate-500 md:text-lg text-justify"
             >
-              Mahasiswa semester 7 jurusan Teknologi Informasi dan Komunikasi,
-              telah menyelesaikan program sertifikat siap kerja di CEP-CCIT
-              Universitas Indonesia. Memiliki pengalaman sebagai pemimpin dalam
-              pengembangan proyek situs web yang dapet memperkaya keterampilan
-              kepemimpinan dan kemampuan koordinasi tim saya. Saya memiliki
-              minat yang besar dalam berkontribusi di team sebagai Web Developer
-              dan telah mengembangkan pemahaman yang kuat dalam pemrograman
-              serta keterampilan pengembangan aplikasi web berbasis data. Selalu
-              berupaya untuk meningkatkan diri, memberikan kontribusi yang
-              maksimal, dan dapat bermanfaat bagi orang lain dan perusahaan
+              A 7th-semester student majoring in Information and Communication
+              Technology, I have completed a job-ready certification program at
+              CEP-CCIT, University of Indonesia. I have experience as a leader
+              in web development projects, which has enriched my leadership
+              skills and team coordination abilities. I am highly passionate
+              about contributing to a team as a Web Developer and have developed
+              a strong understanding of programming and data-driven web
+              application development. I am always eager to improve myself, make
+              meaningful contributions, and bring value to others and the
+              company.
             </h2>
           </div>
           <div class="w-full px-4 lg:w-1/2">
@@ -155,10 +157,9 @@
             <p
               class="text-md font-medium text-slate-500 md:text-lg mb-5 text-justify"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt
-              laudantium provident architecto repellendus eveniet dolorum.
-              Officia, quae dolorem omnis ea illo ullam ducimus repellat dolores
-              deleniti ipsum nisi, quam nihil.
+              Feel free to connect and discuss further—I’m always open to
+              sharing ideas, learning new things, and fostering meaningful
+              collaborations!
             </p>
             <div class="flex mb-7">
               <!-- github -->
@@ -218,7 +219,7 @@
             </div>
           </div>
           <!-- skill -->
-          <div id="porto" class="lg:px-4 px-4">
+          <!-- <div id="porto" class="lg:px-4 px-4">
             <h3
               class="font-bold uppercase text-cyan-500 text-lg mb-3 lg:text-2xl justify-center items-center"
             >
@@ -239,12 +240,12 @@
               explicabo excepturi modi quae quasi ipsum, praesentium inventore
               libero in natus minima cum sapiente quod!Lorem
             </p>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <!-- portfolio -->
-    <section id="porto" class="bg-cyan-100 pt-36 pb-16">
+    <section id="porto" class="bg-cyan-100 pt-28 pb-16">
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-xl text-center">
@@ -254,9 +255,7 @@
               Portfolio
             </h2>
             <p class="text-md font-medium text-slate-500 md:text-lg">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Voluptatibus porro consequuntur alias, commodi nemo enim aliquam
-              ipsam obcaecati? Assumenda, ipsam?
+              Projects I Have Worked On
             </p>
           </div>
         </div>
@@ -272,26 +271,25 @@
                 width="w-full"
               />
             </div>
-            <h3 class="mt-5 mb-3 text-xl font-semibold text-dark">
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-cyan-500">
               <a href="https://www.smp-baktiidhata.sch.id" target="_blank"
                 >Smp Bakti Idhata</a
               >
             </h3>
-            <p class="text-base font-medium text-slate-500">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-              iusto! Aliquam, corporis.
+            <p class="text-base font-medium text-slate-500 text-justify">
+              Here I am as the Project Lead, and this project uses Node.js and
+              React.
             </p>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img src="dist/img/port/2.png" alt="E-Commerce" width="w-full" />
             </div>
-            <h3 class="mt-5 mb-3 text-xl font-semibold text-dark">
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-cyan-500">
               <a href="http://finture.free.nf/" target="_blank">Finture</a>
             </h3>
-            <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-              iusto! Aliquam, corporis.
+            <p class="text-base font-medium text-slate-500 text-justify">
+              Here I am as a Frontend Developer using Tailwind.
             </p>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
@@ -302,12 +300,12 @@
                 width="w-full"
               />
             </div>
-            <h3 class="mt-5 mb-3 text-xl font-semibold text-dark">
-              Technical Documentation
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-cyan-500">
+              Footfield
             </h3>
-            <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-              iusto! Aliquam, corporis.
+            <p class="text-base font-medium text-slate-500 text-justify">
+              This is my final project during college, using the CodeIgniter
+              framework.
             </p>
           </div>
           <div class="mb-12 p-4 md:w-1/2">
@@ -318,12 +316,11 @@
                 width="w-full"
               />
             </div>
-            <h3 class="mt-5 mb-3 text-xl font-semibold text-dark">
-              Tribute Page
+            <h3 class="mt-5 mb-3 text-xl font-semibold text-cyan-500">
+              Landing Page
             </h3>
-            <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-              iusto! Aliquam, corporis.
+            <p class="text-base font-medium text-slate-500 text-justify">
+              I created this landing page while looking for references, using HTML, CSS, and JavaScript.
             </p>
           </div>
         </div>
@@ -341,8 +338,8 @@
               Clients
             </h2>
             <p class="text-md font-medium text-slate-500 md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              voluptatem harum sunt.
+              We are proud to have worked with our valued client, delivering a
+              high-quality digital solution tailored to their needs
             </p>
           </div>
           <div class="w-full px-4">
@@ -365,13 +362,13 @@
           <div class="mx-auto mb-16 max-w-xl text-center">
             <h2
               class="mb-4 text-3xl font-bold text-dark text-cyan-500 sm:text-4xl lg:text-5xl"
-              id="porto"
             >
-              Contact
+              Contact Me 😎
             </h2>
             <p class="text-md font-medium text-slate-500 md:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              voluptatem harum sunt.
+              Feel free to reach out to us for any inquiries or collaboration
+              opportunities. We're here to assist you and discuss how we can
+              work together to bring your ideas to life
             </p>
           </div>
         </div>
@@ -379,7 +376,7 @@
           <div class="w-full lg:w-2/3 lg:mx-auto">
             <div class="w-full px-4 mb-8">
               <label for="name" class="text-base font-bold text-cyan-500"
-                >Nama</label
+                >Name</label
               >
               <input
                 type="text"
@@ -399,7 +396,7 @@
             </div>
             <div class="w-full px-4 mb-8">
               <label for="pesan" class="text-base font-bold text-cyan-500"
-                >Pesan</label
+                >Message</label
               >
               <textarea
                 type="email"
@@ -407,13 +404,17 @@
                 class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-cyan-500 focus:ring-1 focus:border-cyan-500 h-35"
               ></textarea>
             </div>
-            <div class="w-full px-4">
-              <button
-                class="text-base font-semibold text-white bg-cyan-500 py-3 px-8 w-full rounded-full hover:opacity-80 hover:shadow-lg transition duration-500"
+            
+              <div class="w-full px-4"><a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=fazaramanugraha@gmail.com"
               >
-                Kirim
-              </button>
-            </div>
+                <button
+                  class="text-base font-semibold text-white bg-cyan-500 py-3 px-8 w-full rounded-full hover:opacity-80 hover:shadow-lg transition duration-500"
+                  onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=fazaramanugraha@gmail.com', '_blank')"
+                >
+                  Send
+                </button>
+              </div>
           </div>
         </form>
       </div>
@@ -421,47 +422,61 @@
     <!-- footer -->
     <footer class="bg-slate-900 pt-24 pb-12">
       <div class="container">
-        <div class="flex flex-wrap">
+        <div class="flex flex-wrap mx-20 ">
           <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
             <h2 class="font-bold text-4xl text-white mb-5">FZ</h2>
-            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
-            <p>fazaramanugraha@gmail.com</p>
+            <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
+            <p>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=fazaramanugraha@gmail.com"
+                target="_blank"
+                >fazaramanugraha@gmail.com</a
+              >
+            </p>
             <p>Ciledug, Tangerang</p>
           </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
+          <div class="w-full px-4 mb-12 md:w-1/3 justify-center text-center">
             <h3 class="font-semibold text-xl text-white mb-5">Projects</h3>
             <ul class="text-slate-300">
               <li>
                 <a
-                  href="#home"
+                  href="https://www.smp-baktiidhata.sch.id"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >123</a
+                  target="_blank"
+                  >SMP Bakti Idhata</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://finture.free.nf/"
+                  class="inline-block text-base hover:text-cyan-500 mb-3"
+                  >Finture</a
                 >
               </li>
               <li>
                 <a
                   href="#home"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >123</a
+                  >Footfield</a
                 >
               </li>
               <li>
                 <a
                   href="#home"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >123</a
+                  >Landing Page</a
                 >
               </li>
             </ul>
           </div>
-          <div class="w-full px-4 mb-12 md:w-1/3">
-            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+          <div class="w-full px-4 mb-12 md:w-1/3  text-end">
+            <h3 class="font-semibold text-xl text-white mb-5">Links</h3>
             <ul class="text-slate-300">
               <li>
                 <a
                   href="#home"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >Beranda</a
+                  >Home</a
                 >
               </li>
               <li>
@@ -475,7 +490,7 @@
                 <a
                   href="#porto"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >Portfolio</a
+                  >My Work</a
                 >
               </li>
               <li>
@@ -489,7 +504,7 @@
                 <a
                   href="#contact"
                   class="inline-block text-base hover:text-cyan-500 mb-3"
-                  >Contact</a
+                  >Get in Touch</a
                 >
               </li>
             </ul>
@@ -501,7 +516,7 @@
             <a
               href="https://github.com/fazaram"
               target="_blank"
-              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-white border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
             >
               <svg
                 role="img"
@@ -520,7 +535,7 @@
             <!-- linkedin -->
             <a
               href="https://www.linkedin.com/in/fazaramanugraha/"
-              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-white border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
               target="_blank"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -537,7 +552,7 @@
             <a
               href="https://www.instagram.com/fazaraman/"
               target="_blank"
-              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border text-white border-slate-300 hover:border-cyan-200 hover:bg-cyan-200 hover:text-white"
               ><svg
                 role="img"
                 viewBox="0 0 24 24"
