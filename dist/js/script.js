@@ -42,4 +42,4 @@ function moveCarousel() {
   track.appendChild(images[0]);
 }
 
-setInterval(moveCarousel, 3000);
+setInterval(moveCarousel, 5000);
